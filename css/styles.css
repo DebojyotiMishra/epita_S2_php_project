@@ -1,0 +1,88 @@
+body {
+    font-family: monospace;
+    color: #1C1C1E;
+    background-color: #ffffff;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    max-width: 1000px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b6b6b6;
+    background-color: #F2F2F7;
+    color: #000000;
+}
+
+input[type="submit"] {
+    background-color: #1C1C1E;
+    color: #F2F2F7;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input {
+    color: #000000;
+    font-family: monospace;
+}
+
+.error {
+    color: #FF453A;
+}
+
+.success {
+    color: #32CD32;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.logout-link {
+    color: #FF453A;
+    text-decoration: none;
+}
+
+.create-note {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+}
+
+.card {
+    background-color: #F2F2F7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8e8e8e;
+}
+
+.card-body {
+    margin-bottom: 1rem;
+}
+
+.card-options {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
